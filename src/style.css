@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  display: flex;
+  gap: 70px;
+  margin-left: 40px;
+}
+
+.recent-scores h2 {
+  margin: 0;
+}
+
+.score-title {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+#refresh,
+form button {
+  padding-top: 0 0 0 0;
+  background-color: #fff;
+}
+
+form {
+  gap: 10px;
+}
+
+form button {
+  margin-left: 68%;
+}
+
+.add h2 {
+  margin: 0;
+}
+
+.add li {
+  margin: 15px 0 15px 0;
+}
+
+.scores ul {
+  border: 1px solid;
+  padding: 1px;
+}
+
+.scores li:nth-child(even) {
+  background-color: lightgray;
+}
