@@ -25,14 +25,7 @@ OPTIONAL SECTIONS:
 After you're finished please remove all the comments and instructions!
 -->
 
-<div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
 
-  <h3><b>Microverse README Template</b></h3>
-
-</div>
 
 <!-- TABLE OF CONTENTS -->
 
@@ -55,53 +48,33 @@ After you're finished please remove all the comments and instructions!
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 Leaderboard<a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
 
-**[your_project__name]** is a...
+**Leaderboard** is a website that displays scores submitted by various players and also allows you to submit your own score. 
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
+- **HTML**
+- **CSS**
+- **JAVASCRIPT**
+- **WEBPACK**
 
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details>
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **Used Linters**
+- **Use of GitFlow**
+- **Great summary for the repo**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -109,9 +82,8 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
 
-- [Live Demo Link](https://google.com)
+- [Live Demo Link](Not deployed yet)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -119,14 +91,18 @@ After you're finished please remove all the comments and instructions!
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
-
 To get a local copy up and running, follow these steps.
+go to https://github.com/deniodev/Leaderboard.git
+
+clone  the project
+
+Run it in your favourite browser
 
 ### Prerequisites
 
 In order to run this project you need:
-
+- A code editor, preferably VSCode. 
+- Your favorite browser
 <!--
 Example command:
 
@@ -139,6 +115,7 @@ Example command:
 
 Clone this repository to your desired folder:
 
+Run git clone https://github.com/deniodev/Leaderboard.git
 <!--
 Example commands:
 
@@ -152,6 +129,13 @@ Example commands:
 
 Install this project with:
 
+Download the project from github and run it in your browser.
+
+Install webpack dependencies. npm init -y npm install webpack webpack-cli --save-dev
+
+Install html webpack plugin npm install --save-dev html-webpack-plugin
+
+Install css loader npm install --save-dev style-loader css-loader
 <!--
 Example command:
 
@@ -175,8 +159,10 @@ Example command:
 
 ### Run tests
 
-To run tests, run the following command:
+You can run tests to check for linter errors by running the following commands:
 
+npx stylelint "**/*.{css,scss}" for testing css errors
+npx eslint . for Javascript errors
 <!--
 Example command:
 
@@ -187,7 +173,7 @@ Example command:
 
 ### Deployment
 
-You can deploy this project using:
+The project is not yet deployed.
 
 <!--
 Example:
@@ -203,19 +189,12 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
+👤 **Denio Nhanale**
 
-👤 **Author1**
+- GitHub: [@githubhandle](https://github.com/deniodev)
+- Twitter: [@twitterhandle](https://twitter.com/DNhanale)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/denionhanale)
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -223,11 +202,10 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **Use Leaderboard API**
+- [ ] **Javascript functionality**
+- [ ] **Style the UI**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -237,7 +215,7 @@ Example:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/deniodev/Leaderboard/issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -245,9 +223,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
+If you like this project please reach out to me on my social media.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -255,15 +231,13 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank...
+I would like to thankmy Microverse team and my coding partners for their support and guidance.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FAQ (optional) -->
 
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+<!-- ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
 > Add at least 2 questions new developers would ask when they decide to use your project.
 
@@ -276,12 +250,12 @@ I would like to thank...
   - [Answer_2]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+ -->
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](https://github.com/deniodev/Leaderboard/blob/structure/LICENSE.md)) licensed.
 
 _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
