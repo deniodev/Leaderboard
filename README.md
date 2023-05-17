@@ -57,6 +57,7 @@ After you're finished please remove all the comments and instructions!
 
 **Leaderboard** is a website that displays scores submitted by various players and also allows you to submit your own score. The data is stored in an external Leaderboard API service to ensure its preservation.
 
+
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
