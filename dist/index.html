@@ -1,12 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Leaderboard</title>
 <script defer src="index.bundle.js"></script></head>
+
 <body>
-    <h1>Leaderboard</h1>
+    <header>
+        <h1>Leaderboard</h1>
+    </header>
+
+    <main>
+        <div class="recent-scores">
+            <div class="score-title">
+                <h2>Recent scores</h2>
+                <button id="refresh">Refresh</button>
+            </div>
+
+            <div class="scores"> </div>
+
+        </div>
+
+        <form action="" class="add" id="add">
+            <h2>Add your score</h2>
+            <ul>
+                <li><input type="text" id="name" placeholder="Your name"></li>
+                <li><input type="text" id="score" placeholder="Your score"></li>
+                <li><button>Submit</button></li>
+            </ul>
+        </form>
+    </main>
+
+
 </body>
+
 </html>
