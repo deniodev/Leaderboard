@@ -42,7 +42,6 @@ After you're finished please remove all the comments and instructions!
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
-  - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -85,7 +84,7 @@ After you're finished please remove all the comments and instructions!
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [Live Demo Link](Not deployed yet)
+- [Live Demo Link](https://deniodev.github.io/Leaderboard/dist/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -174,9 +173,6 @@ Example command:
 ```
 --->
 
-### Deployment
-
-The project is not yet deployed.
 
 <!--
 Example:
