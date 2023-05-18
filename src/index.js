@@ -28,7 +28,7 @@ const getScores = async () => {
   const data = await response.json();
   result = await data.result;
 
-  result.forEach((element) => { scoresList.innerHTML += `<li>${element.user} ${element.score}</li>`; });
+  result.forEach((element) => { scoresList.innerHTML += `<li>${element.user}: ${element.score}</li>`; });
 };
 
 scoresList.classList.add('score');

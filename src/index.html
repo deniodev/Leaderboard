@@ -10,27 +10,32 @@
 
 <body>
     <header>
-        <h1>Leaderboard</h1>
+        <h1 class="title">Leaderboard</h1>
     </header>
 
     <main>
         <div class="recent-scores">
             <div class="score-title">
                 <h2>Recent scores</h2>
-                <button id="refresh">Refresh</button>
+                <button id="refresh" class="btn">Refresh</button>
             </div>
 
             <div class="scores"> </div>
 
         </div>
-
-        <form action="" class="add" id="add">
+        <form action="" class="container" id="add">
             <h2>Add your score</h2>
-            <ul>
-                <li><input type="text" id="name" placeholder="Your name"></li>
-                <li><input type="text" id="score" placeholder="Your score"></li>
-                <li><button>Submit</button></li>
-            </ul>
+            <div class="input-container">
+                <div class="input-content">
+                    <div class="input-dist">
+                        <div class="input-type">
+                            <input placeholder="Your name" required="" type="text" class="input-is" id="name" >  
+                            <input placeholder="Your score" required="" type="text" class="input-is" id="score">
+                            <li><button class="btn">Submit</button></li>  
+                        </div>
+                    </div>
+                </div>
+            </div>
         </form>
     </main>
 
